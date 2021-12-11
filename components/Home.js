@@ -33,10 +33,10 @@ class CustomWebView extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text style={styles.titleStyle} > K365 Kiosk </Text>
+                <Text style={styles.titleStyle} > Kurious365 Kiosk </Text>
                 <WebView ref={
                     (webView) => (this.webView = webView)}
-                    source={{ uri: "https://skp-a-stag2.kurious365.com/" }}
+                    source={{ uri: "https://portal.mavinacademy.com/sign-in" }}
                     style={styles.webContainer}
                 />
             </View>
